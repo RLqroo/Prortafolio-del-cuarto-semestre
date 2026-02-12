@@ -1,0 +1,34 @@
+/* Estilos externos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}

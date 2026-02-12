@@ -1,0 +1,115 @@
+/* Variables CSS para reutilización de colores */
+:root {
+    --color-principal: #3776ab; /* Azul oscuro/Python */
+    --color-secundario: #ffd43b; /* Amarillo/Python */
+    --color-fondo: #f4f7f6; /* Gris muy claro */
+    --color-texto: #333333; /* Gris oscuro para el texto */
+    --color-claro: #ffffff; /* Blanco */
+    --padding-base: 20px;
+}
+
+/* Estilos Globales y de Reseteo */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    padding-bottom: 80px; /* Espacio para el footer fijo o estático */
+}
+
+/* Encabezado Principal (Header) */
+header {
+    background-color: var(--color-principal);
+    color: var(--color-claro);
+    padding: var(--padding-base) 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+/* Contenedor principal de los artículos */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 var(--padding-base);
+}
+
+/* Estilo para cada sección/artículo */
+.article {
+    background-color: var(--color-claro);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid var(--color-secundario); /* Borde de énfasis */
+}
+
+/* Subtítulos (h2) */
+.sub {
+    color: var(--color-principal);
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--color-fondo);
+    padding-bottom: 5px;
+}
+
+/* Sub-secciones dentro de los artículos (h3) */
+h3 {
+    color: var(--color-texto);
+    font-size: 1.2em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Énfasis en texto (usado en <strong> dentro de p) */
+p strong {
+    color: var(--color-principal);
+    font-weight: 600;
+}
+
+/* Footer y datos del autor */
+footer {
+    background-color: #2c3e50; /* Un gris azulado oscuro */
+    color: var(--color-claro);
+    text-align: center;
+    padding: 15px 0;
+    /* Para hacerlo fijo al fondo de la página, descomenta estas líneas: */
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+}
+
+#autor {
+    font-style: normal; /* Quita la cursiva de la etiqueta <address> */
+    font-size: 0.9em;
+}
+
+/* Media Query para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    .title {
+        font-size: 2em;
+    }
+    .sub {
+        font-size: 1.5em;
+    }
+    .article {
+        padding: 20px;
+    }
+}
