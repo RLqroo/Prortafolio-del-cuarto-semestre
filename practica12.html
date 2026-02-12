@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelos de Aprendizaje Supervisado en IA</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f6fa;
+      color: #333;
+    }
+
+    h1, h2, h3, h4 {
+      font-weight: 600;
+    }
+
+    /* Encabezado principal */
+    h1 {
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Sección 1 */
+    .intro-section {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 40px;
+    }
+
+    /* Sección 2 */
+    .types-section {
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    }
+
+    .types-section h4 {
+      color: #00796b;
+    }
+
+    .types-section img {
+      transition: transform 0.3s;
+    }
+
+    .types-section img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Sección 3 */
+    .apps-section {
+      background: #fff8e1;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 40px;
+    }
+
+    /* Footer */
+    footer {
+      background: #212121;
+      color: #eee;
+      font-size: 0.9rem;
+    }
+
+    /* Animaciones suaves */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- SECCIÓN 1 -->
+  <div class="container mt-5 intro-section fade-in">
+    <h1 class="text-center text-primary mb-4">Modelos de Aprendizaje Supervisado en IA</h1>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3>¿Qué es el aprendizaje supervisado?</h3>
+        <p>
+          El <strong>aprendizaje supervisado</strong> es una técnica de la inteligencia artificial en la que los modelos
+          se entrenan con datos etiquetados, es decir, ejemplos con respuestas correctas conocidas.
+          De esta manera, el sistema aprende a realizar predicciones o clasificaciones con nuevos datos.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/2907/2907253.png" class="img-fluid w-50" alt="IA Icono">
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 2 -->
+  <div class="container-fluid types-section py-5 mt-5 fade-in">
+    <div class="row text-center">
+      <h2 class="text-success mb-4">Tipos de Modelos Supervisados</h2>
+
+      <div class="col-md-4">
+        <img src="https://cdn-icons-png.flaticon.com/512/3069/3069187.png" class="img-fluid w-25 mb-3" alt="Regresión">
+        <h4>Regresión</h4>
+        <p>Predice valores numéricos, como precios, edades o temperaturas.</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png" class="img-fluid w-25 mb-3" alt="Clasificación">
+        <h4>Clasificación</h4>
+        <p>Permite dividir datos en categorías: correos spam, diagnóstico médico, etc.</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="https://cdn-icons-png.flaticon.com/512/2306/2306154.png" class="img-fluid w-25 mb-3" alt="Árboles">
+        <h4>Árboles de Decisión</h4>
+        <p>Usan estructuras jerárquicas para clasificar datos según sus características.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 3 -->
+  <div class="container-lg apps-section mt-5 fade-in">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/1087/1087840.png" class="img-fluid w-75" alt="Aplicaciones IA">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-warning">Aplicaciones Prácticas</h2>
+        <p>
+          Los modelos de aprendizaje supervisado son ampliamente utilizados en diversos sectores tecnológicos:
+        </p>
+        <ul>
+          <li>📸 Reconocimiento facial</li>
+          <li>🧠 Diagnóstico médico asistido</li>
+          <li>💰 Predicción financiera</li>
+          <li>📝 Clasificación automática de texto e imágenes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-3 mt-5">
+    <p>Práctica 12 - Contenedores de Bootstrap | Inteligencia Artificial © 2025</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi practica 7</title>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+
+    <form action="" method="post">
+
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" maxlength="100" required>
+        <br>
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" placeholder="ejemplo@correo.com" name="correo" values="" required>
+        <br>
+        <label for="clave">Contraseña:</label><br>
+        <input type="password" id="clave" name="clave" minlength="6" required>
+        <br>
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" min="18" max="99" required>
+        <br>
+        <p>Género:</p>
+        <input type="radio" id="masc" name="genero" value="Masculino">
+        <label for="masc">Masculino</label>
+        <input type="radio" id="fem" name="genero" value="Femenino" >
+        <label for="fem">Femenino</label>
+        <input type="radio" id="otro" name="genero" value="Otro">
+        <label for="otro">Otro</label>
+        <br>
+        <p>Competencias:</p>
+        <input type="checkbox" id="dep" name="comp" value="Deportes">
+        <label for="dep">Deportes</label>
+        <input type="checkbox" id="mus" name="comp" value="Música">
+        <label for="mus">Música</label>
+        <input type="checkbox" id="tec" name="comp" value="Tecnología">
+        <label for="tec">Tecnología</label>
+        <br>
+        <br>
+        <label for="empleo">Tipo de empleo que buscas:</label>
+        <select id="empleo" name="empleo">
+            <option value="tiempo_completo">Tiempo completo</option>
+            <option value="medio_tiempo">Medio tiempo</option>
+            <option value="practicas">Prácticas</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br>
+        <br>
+        <label for="info">Información adicional:</label>
+        <br>
+        <textarea id="info" name="info" rows="4" cols="40"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+
+    </form>
+</body>
+</html>

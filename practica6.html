@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi practica 6</title>
+</head>
+<body>
+  <h1>Historial de materias</h1>
+  <!-- encerre a todo dentro de un div para darle un color a todo, para centrarlo use 0 pixeles arriba y abajo, auto de izqueirda y derecha par centrarlo horizontalmente, con el padding le di un expacio interior de 20px a todos lo lados de todo el contenido y centre todo el contenido de cada tabal con el text aling -->
+  <div style="background-color: #FFDAB9; width: 1000px; margin: 0 auto; padding: 20px; border-radius: 30px; text-align: center;">
+  <section>
+     <!-- puedo usar border-collapse: collapse; para que no haya ese espacio entre las lineas, eliminando esos espacios entre cada linea y columnas, para que se vea como un cuadro normal, el border es el grosor del borde de cad cuadro, table-layout: fixed; esta permite describuir el tamaño de cada column detro del contenedor, si es auto cada columna se hace tan ancha como necesite su contenido más grande y si uso fixed las columnas se distribuyen según el ancho total de la tabla, sin importar el contenido -->
+  <table border="1" style="width: 100%; margin: 0 auto; border-collapse: collapse; table-layout: fixed;">
+    <thead>
+      <tr style="background-color: #FFB6C1;">
+        <th>Código</th>
+        <th>Nombre de la materia</th>
+        <th>Créditos</th>
+        <th>Profesor</th>
+        <th>Cuatrimestre</th>
+        <th>Estatus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CYHD01D</td>
+        <td>Comunicacion y Habilidades Digitales</td>
+        <td>4.68</td>
+        <td>FRANCISCO JAVIER GUZMAN GAMES</td>
+        <td>1</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>DHYV01D</td>
+        <td> DES HUMANO Y VALORE</td>
+        <td>3.75</td>
+        <td>HECTOR HERNANDEZ MARTINEZ</td>
+        <td>1</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>ENG101D</td>
+        <td>ENGles 1</td>
+        <td>4.68</td>
+        <td>CLAUDIA AGUILAR BONILLA</td>
+        <td>1</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>FIS201D</td>
+        <td>FÍSICA</td>
+        <td>5.63</td>
+        <td>MARIO ALBERTO CARMONA CAMPOS</td>
+        <td>1</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>FNPR01D</td>
+        <td>FUNDA PROGRA</td>
+        <td>3.75</td>
+        <td>MANUEL ALEJANDRO FLORES BARRERA</td>
+        <td>1</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>FNRD01D</td>
+        <td> FUNDA REDES </td>
+        <td>3.75</td>
+        <td>GINO GERARDO MADRAZO GALVEZ</td>
+        <td>1</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>FUM101D</td>
+        <td>FUND MATEMÁTICOS </td>
+        <td>6.56</td>
+        <td>WENCESLAO MEJIA GARCIA</td>
+        <td>1</td>
+        <td>Cursado</td>
+      </tr>
+    </tbody>
+  </table>
+  </section>
+  <br>
+  <section>
+  <table border="1" style="width: 100%; margin: 0 auto; border-collapse: collapse; table-layout: fixed;">
+    <thead>
+      <tr style="background-color: #87CEFA;">
+        <th>Código</th>
+        <th>Nombre de la materia</th>
+        <th>Créditos</th>
+        <th>Profesor</th>
+        <th>Cuatrimestre</th>
+        <th>Estatus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>B-CDI-122AM</td>
+        <td>CÁLCULO DIFERENCIAL</td>
+        <td>5.63</td>
+        <td>JESÚS MANUEL CASTILLO MENDOZA</td>
+        <td>2</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>B-ING2-122AM</td>
+        <td>  INGLÉS II </td>
+        <td>4.68</td>
+        <td>FATIMA BERNAL GOMEZ</td>
+        <td>2</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>B-PES-F-122AM</td>
+        <td> PROB Y ESTAD ORD. EV1</td>
+        <td>4.69</td>
+        <td>DIANA KARINA VALENCIA ALBORNOZ</td>
+        <td>2</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>E-CTER-122AM</td>
+        <td> CON Y ENRU REDES</td>
+        <td>4.69</td>
+        <td>GINO GERARDO MADRAZO GALVEZ</td>
+        <td>2</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>E-PRE-122AM</td>
+        <td>PROGRAMACION ESTRUCTURADA</td>
+        <td>4.69</td>
+        <td>ÁNGEL MANUEL MORALES SALAZAR</td>
+        <td>2</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>E-SIOP-122AM</td>
+        <td>SISTEMAS OPERATIVOS</td>
+        <td>4.69</td>
+        <td>MOPISES ORTEGA ZETINA</td>
+        <td>2</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>T-HSMC-122AM</td>
+        <td>HABILIDADES SOCIOEM</td>
+        <td>3.75</td>
+        <td>FRANCISCO JAVIER GUZMAN GAMES</td>
+        <td>2</td>
+        <td>Cursado</td>
+      </tr>
+    </tbody>
+  </table>
+  </section>
+  <br>
+  <section>
+  <table border="1" style="width: 100%; margin: 0 auto; border-collapse: collapse; table-layout: fixed;">
+    <thead>
+      <tr style="background-color: #90EE90;">
+        <th>Código</th>
+        <th>Nombre de la materia</th>
+        <th>Créditos</th>
+        <th>Profesor</th>
+        <th>Cuatrimestre</th>
+        <th>Estatus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>53-B-CIN-123AM</td>
+        <td>CALCULO INTEGRAL</td>
+        <td>4.68</td>
+        <td>EVA MIRELLE ZAVALA AMEZCUA</td>
+        <td>3</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>53-B-ING3123AM</td>
+        <td> INGLES III </td>
+        <td>4.69</td>
+        <td>FATIMA BERNAL GOMEZ</td>
+        <td>3</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>53-E-BDD-123AM</td>
+        <td>BASE DE DATOS</td>
+        <td>4.69</td>
+        <td>MARISOL DEL ROSARIO PERALTA REJÓN</td>
+        <td>3</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>53-E-PIN1123AM</td>
+        <td>PROYECTO INTEGRADOR</td>
+        <td>3.75</td>
+        <td>RICARDO ARMANDO RUIZ HERNANDEZ</td>
+        <td>3</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>53-E-POAO123AM</td>
+        <td>PROGRAMACION ORIENTADA A OBJETOS</td>
+        <td>6.56</td>
+        <td>EVA MIRELLE ZAVALA AMEZCUA</td>
+        <td>3</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>53-E-TCDS123AM</td>
+        <td>TOPICOS DE CALIDAD PRA DISEÑO DE SOFTWARE</td>
+        <td>5.63</td>
+        <td>JORGE MARIO DÍAZ URBINA</td>
+        <td>3</td>
+        <td>Cursado</td>
+      </tr>
+      <tr>
+        <td>53-T-DPTD123AM</td>
+        <td>DESARROLLO DEL PENSAMIENTO Y TOMA DE DECISIONES</td>
+        <td>6.56</td>
+        <td>AMARAINI NOEMI ANDRADE MEX</td>
+        <td>1</td>
+        <td>Cursado</td>
+      </tr>
+    </tbody>
+  </table>
+  </section>
+  <br>
+  <section>
+  <table border="1" style="width: 100%; margin: 0 auto; border-collapse: collapse; table-layout: fixed;">
+    <thead>
+      <tr style="background-color: #FFFF00;">
+        <th>Código</th>
+        <th>Nombre de la materia</th>
+        <th>Créditos</th>
+        <th>Profesor</th>
+        <th>Cuatrimestre</th>
+        <th>Estatus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>53-B-CVV-224AM</td>
+        <td>CALC VARIAS VARIABL</td>
+        <td>4.69</td>
+        <td>EVA MIRELLE ZAVALA AMEZCUA</td>
+        <td>4</td>
+        <td>Cursando</td>
+      </tr>
+      <tr>
+        <td>53-B-ING4224AM</td>
+        <td> INGLES IV </td>
+        <td>4.69</td>
+        <td>JUAN JESUS MARTIN HOY</td>
+        <td>4</td>
+        <td>Cursando</td>
+      </tr>
+      <tr>
+        <td>53-E-APW224AM</td>
+        <td> APLICACIONES WEB</td>
+        <td>4.69</td>
+        <td>MANUEL ALEJANDRO FLORES BARRERA</td>
+        <td>3</td>
+        <td>Cursando</td>
+      </tr>
+      <tr>
+        <td>53-E-AYDS224AM</td>
+        <td> ANÁLISIS Y DIS SOFT</td>
+        <td>4.69</td>
+        <td>MOISES ORTEGA ZETINA</td>
+        <td>4</td>
+        <td>Cursando</td>
+      </tr>
+      <tr>
+        <td>53-E-DAPM224AM</td>
+        <td> DES APLIC MÓVILES</td>
+        <td>5.63</td>
+        <td>JUAN MANUEL RODRÍGUEZ SANTIAGO</td>
+        <td>4</td>
+        <td>Cursando</td>
+      </tr>
+      <tr>
+        <td>53-E-ETD-224AM</td>
+        <td>T ESTRUCTURA DE DATOS</td>
+        <td>4.69</td>
+        <td>RICARDO ARMANDO RUIZ HERNANDEZ</td>
+        <td>4</td>
+        <td>Cursando</td>
+      </tr>
+      <tr>
+        <td>53-T-EPR-224AM</td>
+        <td> ÉTICA PROFESIONAL</td>
+        <td>3.75</td>
+        <td>MARISOL DEL ROSARIO PERALTA REJÓN</td>
+        <td>4</td>
+        <td>Cursando</td>
+      </tr>
+    </tbody>
+  </table>
+  </section>
+  </div>
+</section>
+</body>
+</html>
